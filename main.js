@@ -84,8 +84,8 @@ function moveCamera() {
   earth.rotation.y += 0.075;
   // earth.rotation.z += 0.05;
   
-  rollins.rotation.y += 0.01;
-  rollins.rotation.z += 0.01;
+  // rollins.rotation.y += 0.01;
+  // rollins.rotation.z += 0.01;
 
   camera.position.z = t * -0.01;
   camera.position.x = t * -0.0002;
