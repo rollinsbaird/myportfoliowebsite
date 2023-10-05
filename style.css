@@ -1,5 +1,9 @@
 @import url("https://use.typekid.net/jmk3xov.css");
 
+body {
+  margin: 0px;
+}
+
 canvas {
   position: fixed;
   top: 0;
