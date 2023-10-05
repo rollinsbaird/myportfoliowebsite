@@ -54,15 +54,15 @@ Array(197).fill().forEach(addStar)
 const spaceTexture = new THREE.TextureLoader().load('space.jpg');
 scene.background = spaceTexture;
 
-const rollinsTexture = new THREE.TextureLoader().load('rollins.png');
+// const rollinsTexture = new THREE.TextureLoader().load('rollins.png');
 
-const rollins = new THREE.Mesh(
-  new THREE.BoxGeometry(3,3,3),
-  new THREE.MeshBasicMaterial( { map: rollinsTexture } )
-);
+// const rollins = new THREE.Mesh(
+//   new THREE.BoxGeometry(3,3,3),
+//   new THREE.MeshBasicMaterial( { map: rollinsTexture } )
+// );
 
-rollins.position.set(17,10,9);
-scene.add(rollins);
+// rollins.position.set(17,10,9);
+// scene.add(rollins);
 
 const earthTexture = new THREE.TextureLoader().load('earth.jpg');
 
