@@ -79,6 +79,10 @@ blockquote p {
   line-height: 1.25;
 }
 
+a {
+  color: white;
+}
+
 .left {
   grid-column: 6 / 12;
 }
